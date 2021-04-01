@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 //const { setInterval } = require("node:timers");
 require('dotenv').config();
-var urlList = ['https%3A%2F%2Fwww.gmail.com','https%3A%2F%2Fwww.thehindu.com%2F','https%3A%2F%2Fwww.dailypioneer.com%2F','https%3A%2F%2Fwww.airvistara.com%2Fin%2Fen' ,'https%3A%2F%2Fwww.airbnb.co.in%2F', 'https%3A%2F%2Fwww.javabrains.io%2F','https%3A%2F%2Fwww.coursera.org%2F', 'https%3A%2F%2Fin.godaddy.com%2F', 'https%3A%2F%2Fwww.valuelabs.com%2F', 'https%3A%2F%2Fwww.jio.com%2F', 'https%3A%2F%2Fwww.google.com', 'https%3A%2F%2Fwww.webpagetest.org', 'https%3A%2F%2Fwww.catchpoint.com%2F', 'https%3A%2F%2Fwww.yahoo.com', 'https%3A%2F%2Fwww.fast.com', 'https%3A%2F%2Fwww.cricbuzz.com%2F', 'https%3A%2F%2Fwww.facebook.com%2F'];
+var urlList = ['https%3A%2F%2Fwww.gmail.com','https%3A%2F%2Fwww.thehindu.com%2F','https%3A%2F%2Fwww.dailypioneer.com%2F', 'https%3A%2F%2Fwww.google.com', 'https%3A%2F%2Fwww.webpagetest.org', 'https%3A%2F%2Fwww.catchpoint.com%2F','https%3A%2F%2Fwww.facebook.com%2F'];
 const api_key = process.env.API_KEY;
 
 for (var i = 0; i < urlList.length; i++)
