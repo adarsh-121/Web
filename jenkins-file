@@ -1,7 +1,7 @@
  pipeline {
     /* specify nodes for executing */
     agent any
-   tools {nodejs "nodejs"}
+   tools {nodejs "node"}
     stages {
         
          stage('Web Page Test') {
