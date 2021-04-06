@@ -10,6 +10,7 @@
             steps {
                 bat 'npm i webpagetest -g'
                 bat 'webpagetest test https://www.google.com/search?q=mac+m1+chip --poll --wait --key %APIKEY% --first'
+                junit skipPublishingChecks: true, testResults: 'gpt.xml'
             }
         }
     }
