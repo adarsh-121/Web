@@ -18,7 +18,7 @@ jobs:
         run: npm install
         
       - name: WebPageTest
-        uses: WPO-Foundation/webpagetest-github-action@main
+        uses: adarshgpt/Web@master
         with:
         
           apiKey: ${{ secrets.WPT_API }}
