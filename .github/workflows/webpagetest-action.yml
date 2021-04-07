@@ -24,8 +24,7 @@ jobs:
           apiKey: ${{ secrets.WPT_API }}
           urls: |
           
-            https://example.com/
-            https://example.com/about
+            https://www.google.com
             
           label: 'GitHub Action Test'
           wptOptions: 'wpt-options.json'
