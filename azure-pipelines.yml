@@ -13,9 +13,9 @@ steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
-  displayName: 'Install Node.js'
+  displayName: 'Install WebPageTest'
 
 - script: |
     npm i webpagetest -g
-    webpagetest test https://www.google.com/search?q=mac+m1+chip --poll --wait -k %WPT_API_KEY%
+    webpagetest test https://www.google.com/search?q=mac+m1+chip --poll --wait -k $(WPT_KEY)
   displayName: 'npm install and build'
