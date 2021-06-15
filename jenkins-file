@@ -13,12 +13,4 @@
             }
         }
     }
-    post {
-      always {
-        junit 
-        (
-        allowEmptyResults: true,
-        '**/reports/junit/*.xml')
-      }
-   } 
 }
