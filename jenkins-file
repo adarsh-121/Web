@@ -8,7 +8,7 @@
         
          stage('Web Page Test') {
             steps {
-                bat 'npm i webpagetest -g'
+                bat 'npm install webpagetest -g'
                 bat 'webpagetest test https://www.google.com/search?q=mac+m1+chip --poll --wait --key %APIKEY% --first'
             }
         }
